@@ -2,102 +2,112 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hallando Huellas Página Oficial</title>
-
-  <!-- custom css file link -->
-  <link rel="stylesheet" href="css/style.css" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-  <!-- Link para Swiper.js CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hallando Huellas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- header section starts  -->
+
+  <!-- Header -->
   <header class="header">
     <div class="container">
-      <a href="#" class="logo">
-        <img src="/imagenes/logo.png" alt="Hallando Huellas" class="logo-image" />
+      <div class="logo">
+        <img src="logo.png" alt="Logo" class="logo-image">
         <span class="logo-text">Hallando Huellas</span>
-      </a>
+      </div>
 
-      <nav class="navbar" id="navbar">
+      <!-- Navbar -->
+      <nav class="navbar">
         <ul class="nav_list">
-          <li><a href="#about">Nosotros</a></li>
-          <li><a href="#faq">Preguntas Frecuentes</a></li>
-          <li><a href="#noticias">Noticias</a></li>
-          <li><a href="/auth/login.html">Ingresar</a></li>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#review">Reseñas</a></li>
           <li class="dropdown-container">
-            <a href="#">Perfil <i class="fas fa-caret-down"></i></a>
-            <ul class="dropdown">
-              <li><a href="#">Ver perfil</a></li>
-              <li><a href="mostrar_mascotas.html">Mis Mascotas</a></li>
-              <li><a href="#">Administrar cuenta</a></li>
-              <li><a href="#">Cerrar sesión</a></li>
-            </ul>
+            <a href="#">Contacto</a>
+            <div class="dropdown">
+              <a href="#">Formulario</a>
+              <a href="#">Ubicación</a>
+            </div>
           </li>
         </ul>
       </nav>
-
-      <div class="menu-icon" id="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
     </div>
   </header>
 
-  <!-- Sección principal (Home) -->
-  <section class="home cover" id="home">
-    <img src="/imagenes/home-img.jpg" class="wave" alt="" />
+  <!-- Cover Section -->
+  <section id="home" class="cover">
+    <div class="cover-content">
+      <h1>¡Reencuentra a tu mascota!</h1>
+      <p>La tecnología al servicio de la unión con tu mascota.</p>
+      <a href="#about" class="btn">Saber más</a>
+    </div>
+    <div class="wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" d="M0,96L1440,288L1440,0L0,0Z"></path></svg>
+    </div>
   </section>
 
-  <!-- about section starts  -->
-  <section class="about" id="about">
-    <h1 class="heading"><span>Sobre</span> Nosotros</h1>
-
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="heading">¿Quiénes Somos?</h2>
     <div class="row">
       <div class="image">
-        <img src="/imagenes/Group.png" alt="Imagen sobre nosotros" />
+        <img src="about-image.jpg" alt="About Us">
       </div>
       <div class="content">
-        <h3>¿Qué es Hallando Huellas?</h3>
-        <p>
-          Hallando Huellas es una aplicación web diseñada para facilitar la
-          reunificación de mascotas perdidas con sus dueños. Utiliza
-          tecnología de geolocalización y códigos QR personalizados. Al encontrar a tu
-          mascota perdida, podrán acceder a la información de ella y contactarse contigo, pudiendo darte la ubicación de tu amigo.
-        </p>
-        <a href="#" class="btn">Saber más</a>
+        <h3>Conectamos a personas y mascotas</h3>
+        <p>Somos una plataforma dedicada a ayudar a las personas a recuperar a sus mascotas perdidas mediante un sistema de QR y geolocalización.</p>
+        <a href="#faq" class="btn">Ver más</a>
       </div>
     </div>
   </section>
 
-  <!-- footer section starts  -->
-  <section class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h3 style="color: black;">Ituzaingó</h3>
-          <p style="color: black;">
-            <i class="fas fa-map-marker-alt"></i>Buenos Aires - Argentina
-          </p>
-          <p style="color: black;">
-            <i class="fas fa-phone"></i> Tel: 1167008959 | hallandohuellas@gmail.com
-          </p>
-          <p style="color: black;">&copy; 2024 Hallando Huellas. Todos los derechos reservados.</p>
-        </div>
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <h2 class="heading">Preguntas Frecuentes</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>¿Cómo funciona la app?</h3>
+        <p>La aplicación te permite registrar tu mascota y generar un código QR único para facilitar su retorno en caso de pérdida.</p>
+      </div>
+      <div class="box">
+        <h3>¿Qué debo hacer si encuentro una mascota?</h3>
+        <p>Solo escanea el código QR del collar de la mascota para ponerte en contacto con su dueño.</p>
+      </div>
+      <div class="box">
+        <h3>¿Es gratis?</h3>
+        <p>Sí, la app es gratuita para todos los usuarios. También ofrecemos opciones premium para algunas funciones adicionales.</p>
       </div>
     </div>
   </section>
-  <!-- footer section ends -->
 
-  <!-- custom js file link  -->
-  <script src="js/script.js"></script>
-  <!-- Script para Swiper.js -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Review Section -->
+  <section id="review" class="review">
+    <h2 class="heading">Lo que dicen nuestros usuarios</h2>
+    <div class="box-container">
+      <div class="box">
+        <p>"¡Gracias a esta app pude encontrar a mi perrito en menos de 24 horas!"</p>
+        <span>- Laura R.</span>
+      </div>
+      <div class="box">
+        <p>"La mejor herramienta para la seguridad de nuestras mascotas, muy fácil de usar."</p>
+        <span>- Jorge P.</span>
+      </div>
+      <div class="box">
+        <p>"Increíble plataforma, me siento más seguro con mi mascota al saber que puedo encontrarla fácilmente."</p>
+        <span>- Ana M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Hallando Huellas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
