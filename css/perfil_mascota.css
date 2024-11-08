@@ -161,4 +161,6 @@
   .back-btn:hover {
     background-color: var(--hover-color);
   }
-  
+  .btn-secondary {
+    color: lightskyblue ;
+  }
