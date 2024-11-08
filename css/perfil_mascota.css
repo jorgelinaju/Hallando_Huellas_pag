@@ -162,5 +162,5 @@
     background-color: var(--hover-color);
   }
   .btn-secondary {
-    color: lightskyblue ;
+    background-color: lightskyblue ;
   }
