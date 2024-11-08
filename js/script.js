@@ -2,6 +2,12 @@
 let navbar = document.querySelector('.navbar');
 let searchForm = document.querySelector('.search-form');
 let cartItem = document.querySelector('.cart-items-container');
+// Activar/Desactivar el menú en dispositivos móviles
+let menuBtn = document.querySelector('#menu-btn');
+
+menuBtn.onclick = () => {
+    navbar.classList.toggle('active'); // Mostrar u ocultar el menú
+}
 
 // Control del botón de menú
 document.querySelector('#menu-btn').onclick = () => {
