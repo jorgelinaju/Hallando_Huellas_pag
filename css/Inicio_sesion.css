@@ -3,8 +3,8 @@ html, body * { box-sizing: border-box; font-family: 'Open Sans', sans-serif; }
 body {
   background:
     linear-gradient(
-    rgba(252, 253, 253, 0.8),
-    rgba(20, 13, 107, 0.8)),
+    rgba(253, 254, 255, 0.8),
+    rgba(255, 255, 255, 0.8)),
     url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/sky-clouds-cloudy-mountain.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -156,7 +156,7 @@ li {
 }
 
 .successtext {
-  color: #ffffff;
+  color: #0e2266;
 	font-size: 16px;
 	font-weight: 300;
   margin-top: -35px;
