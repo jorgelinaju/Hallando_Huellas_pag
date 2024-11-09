@@ -13,7 +13,12 @@
     --white: #fff;
     --border-radius: 8px;
 }
-
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
 /* Reset de márgenes y paddings */
 * {
     margin: 0;
