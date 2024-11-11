@@ -18,8 +18,7 @@
         <div class="main-section">
             <h1 class="heading">Bienvenido</h1>
 
-            <form action="/" method="post">
-
+            <form onsubmit="event.preventDefault(); window.location.href = 'mostrar_mascotas.html';">
                 <div class="field-wrap">
                     <label>Email <span class="req">*</span></label>
                     <input type="email" required autocomplete="off" />
@@ -29,7 +28,9 @@
                     <label>Contraseña<span class="req">*</span></label>
                     <input type="password" required autocomplete="off" />
                 </div>
-                <a href="/main/mostrar_mascotas.html" class="btn">Iniciar</a>
+
+                    <button type="submit" class="btn">Iniciar</button>
+           
                 <!--<button href="mostrar_mascotas.html" type="submit" class="btn">Iniciar</button>-->
             </form>
 
