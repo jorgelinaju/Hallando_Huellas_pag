@@ -1071,6 +1071,9 @@ h2 {
   .header .logo img {
     display: none;
   }
+  .home{
+    display: none;
+  }
 
   .leckerli-one-regular {
     font-size: 30px;
@@ -1105,6 +1108,9 @@ h2 {
   .header .icons div {
     font-size: 2rem;
   }
+  .home{
+    display: none;
+  }
 
   #menu-btn {
     display: block;
@@ -1125,6 +1131,9 @@ h2 {
 }
 @media (max-width: 371px) {
   .header .logo img {
+    display: none;
+  }
+  .home{
     display: none;
   }
 
