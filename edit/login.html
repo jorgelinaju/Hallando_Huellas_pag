@@ -1,41 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil</title>
     <link rel="stylesheet" href="/css/inicio_de_sesion.css" />
-</head>
+    <link rel="#" href="/main/mostrar_mascotas.html" />
+  </head>
 
-<body>
-    <div class="card">
-        <div class="header">
-            <a href="index.html" class="logo">Hallando Huellas</a>
-        </div>
-
-        <div class="main-section">
-            <h1 class="heading">Bienvenido</h1>
-
-            <form action="/" method="post">
-
-                <div class="field-wrap">
-                    <label>Email <span class="req">*</span></label>
-                    <input type="email" required autocomplete="off" />
-                </div>
-
-                <div class="field-wrap">
-                    <label>Contraseña<span class="req">*</span></label>
-                    <input type="password" required autocomplete="off" />
-                </div>
-
-                <button href="mascota_escaneada.html" type="button" class="button button-block">Iniciar</button>
-            </form>
-
-            <p class="forgot"><a href="#">¿Olvidaste tu contraseña?</a></p>
-        </div>
+  <body>
+    <div class="header">
+      <a href="/index.html" class="logo">Hallando Huellas</a>
     </div>
-</body>
+    <div class="card">
+      <div class="main-section">
+        <h1 class="heading">Bienvenido</h1>
 
+        <form action="/" method="post">
+          <div class="field-wrap">
+            <label>Email <span class="req">*</span></label>
+            <input type="email" required autocomplete="off" />
+          </div>
+
+          <div class="field-wrap">
+            <label>Contraseña<span class="req">*</span></label>
+
+            <input type="password" required autocomplete="off" />
+          </div>
+
+          <div class="header">
+            <a href="/mostrar_mascotas.html" class="logo">Inicio</a>
+          </div>
+        </form>
+
+        <p class="forgot"><a href="#">¿Olvidaste tu contraseña?</a></p>
+      </div>
+    </div>
+  </body>
 </html>
