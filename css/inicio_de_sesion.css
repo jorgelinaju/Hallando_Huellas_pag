@@ -38,16 +38,13 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-<<<<<<< HEAD
 .inicio {
   width: 50%;
-  background-color: #0a5d91;
+  background-color: var(--main-color);
   padding: 15px;
   text-align: center;
   margin: auto;
 }
-=======
->>>>>>> 3e681301d9ae66f965d1e107524b28763880ff2d
 .header .logo {
   font-size: 24px;
   text-decoration: none;
