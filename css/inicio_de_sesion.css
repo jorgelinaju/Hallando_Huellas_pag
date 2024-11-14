@@ -38,16 +38,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-#inicio {
-  width: 50%;
-  background-color: var(--main-color);
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: auto;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #fff;
-}
+
 .header .logo {
   font-size: 24px;
   text-decoration: none;
@@ -121,6 +112,16 @@ button.button-block {
 button.button-block:hover {
   background: var(--accent-color);
 }
+#inicio {
+  width: 50%;
+  background-color: var(--main-color);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
 
 .forgot {
   text-align: center;
@@ -136,3 +137,4 @@ button.button-block:hover {
 .forgot a:hover {
   text-decoration: underline;
 }
+
