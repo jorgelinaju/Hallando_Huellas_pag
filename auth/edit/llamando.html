@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llamando...</title>
+    <link rel="stylesheet" href="/css/llamando.css">
+    
+</head>
+
+<body>
+    <div class="llamada-container">
+        <h2>Llamando a Camila...</h2>
+        <img src="/imagenes/llamando.jpg" alt="Llamando" class="imagen-llamada">
+        <p>Espere mientras se conecta la llamada!</p>
+        <button class="boton-cancelar" onclick="cancelarLlamada()">Cancelar</button>
+    </div>
+
+    <script>
+        function cancelarLlamada() {
+            alert("Llamada cancelada");
+            window.location.href = "/index.html";
+        }
+    </script>
+</body>
+
+</html>
+

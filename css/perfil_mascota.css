@@ -1,4 +1,4 @@
-/* Estilo general */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
@@ -163,3 +163,141 @@
   .btn-secondary {
     background-color: lightskyblue ;
   }
+
+  @media (max-width: 768px) {
+    .container-card {
+        max-width: 90%; 
+        padding: 15px; 
+    }
+
+    .image-container img {
+        width: 180px; }
+
+    .container-perfil p {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container-card {
+        max-width: 95%; 
+        padding: 10px; 
+    }
+
+    .image-container img {
+        width: 150px; 
+    }
+
+    .container-perfil p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 320px) {
+    .container-card {
+        max-width: 100%; 
+        padding: 5px;
+    }
+
+    .image-container img {
+        width: 120px; 
+    }
+
+    .container-perfil p {
+        font-size: 0.8rem;
+    }
+}
+
+
+  @media (max-width: 1200px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .nav-list {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container-card {
+      max-width: 100%;
+      padding: 20px;
+    }
+
+    .image-container img {
+      width: 150px;
+    }
+
+    .container-perfil p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .container-card {
+      padding: 15px;
+    }
+
+    .image-container img {
+      width: 100px;
+    }
+
+    .container-perfil p {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .container-card {
+      padding: 10px;
+    }
+
+    .image-container img {
+      width: 80px;
+    }
+
+    .container-perfil p {
+      font-size: 0.7rem;
+    }
+  }
+  @media (max-width: 360px) {
+    .container-card {
+      padding: 5px;
+    }
+
+    .image-container img {
+      width: 60px;
+    }
+
+    .container-perfil p {
+      font-size: 0.6rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .container-card {
+      padding: 2px;
+    }
+
+    .image-container img {
+      width: 50px;
+    }
+
+    .container-perfil p {
+      font-size: 0.5rem;
+    }
+  }
+  @media (max-width: 280px) {
+    .container-card {
+      padding: 1px;
+    }
+
+    .image-container img {
+      width: 40px;
+    }
+
+    .container-perfil p {
+      font-size: 0.4rem;
+    }
+  }
+
+

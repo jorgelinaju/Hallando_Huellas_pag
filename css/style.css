@@ -234,7 +234,7 @@ body {
 .nav_list a {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   padding: 10px 15px;
   transition: background-color 0.3s, color 0.3s;
@@ -1030,19 +1030,22 @@ h2 {
 
   .header .navbar {
     position: absolute;
+
     top: 100%;
     right: -100%;
     background: #114f7e;
     width: 20rem;
-    height: 24rem;
+    height: 35rem;
   }
 
   .header .navbar.active {
     right: 5px;
+    
   }
 
   .header .navbar a {
     color: var(--black);
+    
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
@@ -1077,6 +1080,7 @@ h2 {
 
   .leckerli-one-regular {
     font-size: 30px;
+    justify-content: center;
   }
 
   .header .icons div {
@@ -1139,6 +1143,7 @@ h2 {
 
   .leckerli-one-regular {
     font-size: 30px;
+    justify-content: center;
   }
 
   .header .icons div {

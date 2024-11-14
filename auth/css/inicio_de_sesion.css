@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --main-color: #0a5d91;
+  --accent-color: #2191db;
+  --hover-color: #005f99;
+  --danger-color: #d9534f;
+  --bg-color: #f0f8ff;
+  --text-color: #333;
+  --white: #fff;
+  --border-radius: 8px;
+}
+
+/* Reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Leckerli One", cursive;
+}
+
+/* Formulario */
+.main-section {
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--main-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+}
+
+.field-wrap {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.field-wrap label {
+  font-weight: 500;
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.field-wrap input {
+  width: 100%;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: var(--text-color);
+}
+
+.field-wrap input:focus {
+  border-color: var(--main-color);
+  outline: none;
+}
+
+#inicio {
+  width: 50%;
+  background-color: var(--main-color);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: 'roboto', sans-serif;
+  }
+#inicio a {
+    color: var(--white) !important; /* Forza el color blanco */
+    text-decoration: none;
+    font-size: 1.1rem; /* Ajusta el tamaño del texto si es necesario */
+  }
+  
+
+button.button-block {
+  background: var(--main-color);
+  color: var(--white);
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+
+button.button-block:hover {
+  background: var(--accent-color);
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: var(--main-color);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+

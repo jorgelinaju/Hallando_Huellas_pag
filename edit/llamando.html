@@ -5,68 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Llamando...</title>
-    <link rel="stylesheet" href="css/llamada.css">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-        }
-
-        .llamada-container {
-            text-align: center;
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            max-width: 300px;
-            width: 100%;
-        }
-
-        .llamada-container h2 {
-            font-size: 1.5em;
-            color: #333;
-        }
-
-        .imagen-llamada {
-            width: 100px;
-            height: 100px;
-            margin: 20px 0;
-        }
-
-        .boton-cancelar {
-            background-color: #ff4c4c;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1em;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .boton-cancelar:hover {
-            background-color: #ff1a1a;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/llamando.css">
+    
 </head>
 
 <body>
     <div class="llamada-container">
-        <h2>Llamando a Julieta...</h2>
+        <h2>Llamando a Camila...</h2>
         <img src="/imagenes/llamando.jpg" alt="Llamando" class="imagen-llamada">
-        <p>Espere mientras se conecta la llamada</p>
+        <p>Espere mientras se conecta la llamada!</p>
         <button class="boton-cancelar" onclick="cancelarLlamada()">Cancelar</button>
     </div>
 
     <script>
         function cancelarLlamada() {
             alert("Llamada cancelada");
-            // Aquí podrías redirigir a otra página o cerrar la ventana
+            window.location.href = "/index.html";
         }
     </script>
 </body>

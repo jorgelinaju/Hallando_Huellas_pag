@@ -34,7 +34,7 @@ body {
 .header {
   width: 100%;
   background-color: var(--main-color);
-  padding: 15px 0;
+  padding: 30px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -98,6 +98,22 @@ body {
   outline: none;
 }
 
+#inicio {
+  width: 50%;
+  background-color: var(--main-color);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  font-family: 'roboto', sans-serif;
+  }
+#inicio a {
+    color: var(--white) !important; /* Forza el color blanco */
+    text-decoration: none;
+    font-size: 1.1rem; /* Ajusta el tamaño del texto si es necesario */
+  }
+  
+
 button.button-block {
   background: var(--main-color);
   color: var(--white);
@@ -127,3 +143,4 @@ button.button-block:hover {
 .forgot a:hover {
   text-decoration: underline;
 }
+
