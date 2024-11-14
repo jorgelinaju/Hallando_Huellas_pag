@@ -108,10 +108,11 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 #inicio a {
-    color: var(--white); /* Cambia el color del texto a blanco */
+    color: var(--white) !important; /* Forza el color blanco */
     text-decoration: none;
-    font-size: 1.1rem; /* Tamaño del texto, ajustable */
+    font-size: 1.1rem; /* Ajusta el tamaño del texto si es necesario */
   }
+  
 
 button.button-block {
   background: var(--main-color);
