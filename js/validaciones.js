@@ -31,4 +31,3 @@ form.onsubmit = (e) => {
   // Redirige a la página deseada si la autenticación es correcta
   window.location.href = "/mostrar_mascotas.html";
 };
-
