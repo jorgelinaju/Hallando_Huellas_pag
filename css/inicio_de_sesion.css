@@ -127,3 +127,10 @@ button.button-block:hover {
 .forgot a:hover {
   text-decoration: underline;
 }
+.inicio {
+  width: 50%;
+  background-color: var(--main-color);
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
