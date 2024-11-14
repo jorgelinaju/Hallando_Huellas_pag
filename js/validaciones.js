@@ -3,7 +3,7 @@ const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/;
 const passwordRegex = /^\d{4,6}$/;
 
 // Selección del formulario y de los campos de email y contraseña
-const form = document.getElementById("loginForm");
+const form = document.getElementById("login");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 const errorMessage = document.getElementById("error-message");
