@@ -106,8 +106,12 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:var(--white);
-}
+  }
+#inicio a {
+    color: var(--white); /* Cambia el color del texto a blanco */
+    text-decoration: none;
+    font-size: 1.1rem; /* Tamaño del texto, ajustable */
+  }
 
 button.button-block {
   background: var(--main-color);
