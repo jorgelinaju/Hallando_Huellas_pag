@@ -693,6 +693,7 @@ p {
 .swiper-container {
   width: 100%;
   padding: 20px 0;
+  /*ocultar los slider */
 }
 
 .swiper-slide {
@@ -839,12 +840,14 @@ p {
 #redes-sociales {
   background-color:#114f7e; /* Color de fondo */
   padding:0; /* Espaciado superior e inferior */
+  overflow: hidden;
 }
 
 .container {
   max-width: 1200px; /* Máxima anchura del contenedor */
   margin: 0 auto; /* Centra el contenedor */
   padding: 0 20px; /* Espaciado lateral */
+  overflow: hidden;
 }
 
 h2 {
