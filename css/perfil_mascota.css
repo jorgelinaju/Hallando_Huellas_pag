@@ -56,7 +56,7 @@
     text-decoration: none;
     font-family: "Leckerli One", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 24px;
     line-height: 50px;
     vertical-align: middle;
 }
@@ -67,10 +67,10 @@
   }
   
   .nav-list li a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--white);
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     transition: background-color 0.3s ease;
   }
   
@@ -98,7 +98,7 @@
   h1 {
     color: var(--main-color);
     margin-bottom: 20px;
-    font-size: 2.4rem;
+    font-size: 2em;
   }
   
   .image-container img {
@@ -125,7 +125,7 @@
   }
   
   .btn {
-    padding: 10px 20px;
+    padding: 8px 10px;
     font-size: 1rem;
     color: var(--white);
     border-radius: var(--border-radius);
@@ -164,50 +164,6 @@
     background-color: lightskyblue ;
   }
 
-  @media (max-width: 768px) {
-    .container-card {
-        max-width: 90%; 
-        padding: 15px; 
-    }
-
-    .image-container img {
-        width: 180px; }
-
-    .container-perfil p {
-        font-size: 1rem; 
-    }
-}
-
-@media (max-width: 480px) {
-    .container-card {
-        max-width: 95%; 
-        padding: 10px; 
-    }
-
-    .image-container img {
-        width: 150px; 
-    }
-
-    .container-perfil p {
-        font-size: 0.9rem; 
-    }
-}
-
-@media (max-width: 320px) {
-    .container-card {
-        max-width: 100%; 
-        padding: 5px;
-    }
-
-    .image-container img {
-        width: 120px; 
-    }
-
-    .container-perfil p {
-        font-size: 0.8rem;
-    }
-}
-
 
   @media (max-width: 1200px) {
     .navbar-container {
@@ -222,7 +178,7 @@
 
   @media (max-width: 768px) {
     .container-card {
-      max-width: 100%;
+      max-width: 90%;
       padding: 20px;
     }
 
@@ -253,7 +209,7 @@
     }
 
     .image-container img {
-      width: 80px;
+      width: 100px;
     }
 
     .container-perfil p {
@@ -299,5 +255,3 @@
       font-size: 0.4rem;
     }
   }
-
-
